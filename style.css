@@ -1,0 +1,178 @@
+/* common */
+body {
+    font-family:'ヒラギノ明朝 ProN';
+}
+a{
+    text-decoration: none;
+}
+/* header */
+.header-wrap {
+    background-image: url("images/main.png");
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.header-list {
+    max-width: 1100px;
+   
+}
+.collapse li:not(:last-child) {
+    margin-right: 40px;
+}
+.navbar-brand:hover {
+    opacity: 0.4;
+    transition: 0.3s;
+}
+.navbar-brand img {
+    height: 60px;
+}
+.nav-item a {
+    font-weight: bold;
+    color:black;
+    font-size: 18px;
+}
+.nav-item a:hover {
+    opacity: 0.4;
+    transition: 0.5s;
+}
+.header-main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+
+  
+}
+.header-main p {
+    font-size: 48px;
+}
+
+/* main */
+.news-item2 {
+    margin-top: 60px;
+    
+}
+.news li {
+    list-style: none;
+    
+} 
+.news a {
+    text-decoration: none;
+    color: black;
+}
+
+.example a:hover {
+    opacity: 0.1;
+    transition: 0.3s;
+}
+.example a {
+    color: black;
+}
+.example {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+/* .example img {
+    width: 100%;
+} */
+.box-item a {
+    color: black;
+}
+.box-item a:hover {
+    opacity: 0.6;
+    transition: 0.3s;    
+}
+.wrap img {
+    margin-top: 30px;
+}
+@media (max-width:960px) {
+  .news-item {
+      display: block;
+      margin-bottom: 8px;
+  }  
+
+}
+a {
+    color: black;
+}
+.box-item {
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+.box {
+  padding: 12px 40px;
+}
+img {
+    width: 100%;
+}
+li {
+    list-style: none;
+}
+.wrapper a:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+}
+/* footer */
+.footer {
+    padding-top: 40px;
+}
+.footer-left a:hover {
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+
+.footer-right a {
+    text-decoration: none;
+    color: white;
+}
+.footer-right a:hover {
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+
+@media (max-width:960px){
+    .header-main p {
+        font-size: 18px;
+    }
+    .navbar-brand img {
+        width: 90px;
+    }
+    .footer-right li {
+        margin-top: 25px; 
+        
+    }
+    .footer-left img {
+        margin-top: 40px;
+    }
+    .news {
+        padding: 50px 22px;
+    }
+    .example {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .wrap {
+      padding:50px 20px;
+    }
+    .navbar-brand img {
+        height: 40px;
+    }
+  
+    
+
+}
+@media (min-width:960px){
+    .footer-right li:not(:last-child) {
+        margin-right: 25px; 
+        
+    }
+}
+
+
+
+
+ 
